@@ -1,0 +1,132 @@
+*{
+   padding: 0px;
+   margin: 0px;
+  
+}
+html,body{
+	 height: 100%;
+
+}
+
+header{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	color: white;
+	background: transparent;
+
+
+}
+.sub_header{
+  width: 40%;
+  height:40px;
+  line-height: 40px;
+  color: white;
+}
+
+.aline_text{
+  height:100px;
+  line-height: 100px;  
+}
+.h_por{
+	height:initial;
+}
+.fl{
+  float: left;
+
+}
+.fr{
+  float: right;
+
+}
+.h_largo{
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  text-align:center;
+  background:transparent;
+
+}
+
+.lr{
+  position: relative;
+  margin: 0 auto;
+  width: 32%;
+  text-align:center;
+  background:gray;
+
+  margin-top: 20px;
+}
+
+.padding_15{
+  margin: 15px;
+}
+.maring_1{
+  margin-left:1%;
+
+}
+/*border*/
+
+.border_1{
+  border: 2px solid;
+}
+.border_bottom_2{
+  border-bottom: 2px solid;
+}
+.border_left_2{
+  border-left: 2px solid;
+}
+.border_c_transp{
+  border-color: transparent;
+}
+/*border color*/
+.borlder_c_black{
+  border-color: black;
+}
+/*backgound color*/
+.back_rosa{
+  background: #d89396;
+}
+.back_rosalife{
+  background: #c04540;
+}
+.back_amarillolife{
+  background: #e5cf95;
+}
+
+/*font tamaño*/
+.font_s_20{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .lr{
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;     
+  }
+  .fl{
+   float: left;
+   position: relative;
+  }  
+  .p_adap{
+    width: 98%;
+  }
+  
+
+}
+
+@media screen and (max-width: 766px) {
+  .lr{
+    width: 98%;
+      margin-right: 1%;
+      margin-left: 1%;
+  }
+  .fl{
+   float: none;
+   position: relative;
+  }  
+
+  
+
+}
